@@ -1,9 +1,5 @@
-const dotenv = require('dotenv');
-
-dotenv.config();
-
-// console.log("Loaded PORT:",process.env.PORT);
-
+const Logger = require("./logger-config");
+const ServerConfig = require("./server-config");
 module.exports={
-    PORT : process.env.PORT ||3000
+    ServerConfig,Logger
 }

@@ -1,3 +1,3 @@
 module.exports ={
-    InforController :require('./info-controller')
+    InfoController :require('./info-controller')
 }
